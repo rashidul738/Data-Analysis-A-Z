@@ -1,0 +1,17 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "mcp": {
+    "nteract": {
+      "type": "local",
+      "command": [
+        "runt",
+        "mcp"
+      ],
+      "environment": {
+        "NTERACT_CHANNEL": "stable"
+      },
+      "enabled": true,
+      "timeout": 30000
+    }
+  }
+}
